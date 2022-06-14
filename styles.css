@@ -1,0 +1,341 @@
+@font-face {
+  font-family: 'Proxima Nova Black';
+  src: url('fonts/Proxima-Nova-Black.otf') format('truetype');
+}
+@font-face {
+	font-family: 'Proxima Nova Bold';
+	src: url('fonts/Proxima-Nova-Bold.otf') format('truetype');
+}
+@font-face {
+	font-family: 'Proxima Nova Regular';
+	src: url('fonts/Proxima-Nova-Regular.otf') format('truetype');
+}
+
+* {
+	padding: 0;
+	margin: 0
+}
+
+body {
+	font-family: 'Proxima Nova Regular', sans-serif;
+	text-align: center;
+	text-rendering: optimizeLegibility;
+	color:#0a100d;
+	background-color: white;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	width: auto;
+	max-width: 100%;
+
+}
+.container {
+	width: auto;
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 12px;
+}
+
+h1 {
+	font-family: 'Proxima Nova Regular', serif;
+	font-size: 4rem;
+	line-height: 4rem;
+	margin-top: 2rem;
+	color: #0a100d;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 1.7rem;
+	letter-spacing: .5rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+	margin-top: 1rem;
+	color: #71bc3e;
+}
+
+h4 {
+	font-weight: 700;
+	color: #71bc3e;
+}
+
+.headline {
+	margin: 6rem auto;
+	width: 80%;
+	margin-bottom: 4rem;
+	margin-top: 16rem;
+}
+
+.description {
+	font-size: 1.6rem;
+	line-height: 2.5rem;
+	margin-bottom: 7rem;
+}
+.teachers {
+	margin: 2rem 0;
+}
+
+.teachers img {
+	max-width: 200px;
+	border-radius: 50%;
+
+}
+.teachers p {
+	padding: 1rem;
+	font-size: 1.4rem;
+	margin-bottom: 2rem;
+	color: #f8f7f7;
+	font-weight: 700;
+	background-color: #0a100d;
+}
+
+.teachers ul {
+	width: 100%;
+	margin: 3rem auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	/* background-color: red; */
+}
+.teachers ul li {
+	width: auto;
+	max-width: 400px;
+	padding: 1rem;
+	background-color: #FFF;
+	margin-bottom: .8rem;
+	/* background-color: blue; */
+}
+
+.teachers ul li p {
+	font-size: 1.1rem;
+	font-weight: 400;
+	line-height: 1.6rem;
+	background-color: #FFF;
+	color: #0a100d ;
+	margin-bottom: 0;
+}
+
+.teachers ul li a {
+	font-size: 1.2rem;
+	text-decoration: none;
+	color: #71bc3e;
+}
+.teachers ul li a:hover {
+	color: #5f006a;
+}
+
+
+.teachers ul li a img {
+	width: 1.4rem;
+	margin-right: .5em;
+	border: none;
+	border-radius: 0;
+}
+
+.overview p {
+	padding: 1rem;
+	font-size: 1.9rem;
+	margin-bottom: 2rem;
+	color: #f8f7f7;
+	font-weight: 700;
+	background-color: #5f006a;
+}
+
+.overview ul {
+	margin-bottom: 2rem;
+
+}
+.overview ul li {
+	padding: 1rem;
+	font-size: 1.8rem;
+}
+
+.form {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.form p {
+	padding: 1rem;
+	font-size: 1.9rem;
+	margin-bottom: 2rem;
+	color: #f8f7f7;
+	font-weight: 700;
+	background-color: #71bc3e;
+}
+.organizado{
+	margin-top: 2rem;
+}
+
+.organizado p {
+	padding: 1rem;
+	font-size: 1.4rem;
+	margin-bottom: 2rem;
+	color: #f8f7f7;
+	font-weight: 700;
+	background-color: #5f006a;
+}
+.logos img {
+	width: 150px;
+	padding: 1rem;
+}
+
+.footer {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tag-footer p {
+	width: 80%;
+	margin: auto;
+	font-size: 1.4rem;
+	line-height: 2rem;
+	padding-top: 2rem;
+	padding-bottom: 4rem;
+}
+/* Ajustment Styles */
+
+.purple {
+	color: #5f006a;
+}
+
+.green {
+	color: #71bc3e;
+}
+
+.title {
+	margin-top: 3rem;
+	font-family: 'Proxima Nova Regular', sans-serif;
+	font-size: 4rem;
+
+}
+
+.title strong {
+	font-family: 'Proxima Nova Black', sans-serif;
+}
+
+.top-bar {
+	position: fixed;
+	width: 100%;
+	background-color: rgb(225, 225, 225);
+}
+
+.top-bar img {
+
+	width: 300px;
+	margin-top: 3.3rem;
+	margin-bottom: 4rem;
+}
+
+footer {
+	margin: 0px;
+	background-color: rgb(225, 225, 225);
+}
+
+.logos img {
+	width: 250px;
+	margin-right: 2rem;
+	margin-top: 2rem;
+}
+
+
+/* Boton */
+
+.whatsapp {
+	display: block;
+	position: fixed;
+	bottom: 60px;
+	right: 60px;
+}
+
+.whatsapp img {
+	width: 100px;
+}
+
+.whatsapp img:hover {
+	width: 120px;
+}
+
+
+/* Media Querys */
+
+@media (max-width:951px){
+	.teachers ul {
+		justify-content: space-around;
+	}
+	.whatsapp {
+			bottom: 40px;
+			right: 40px;
+		}
+}
+
+@media (max-width:700px){
+	.headline {
+		margin: 3rem auto;
+	}
+				.whatsapp {
+					bottom: 20px;
+					right: 20px;
+				}
+}
+
+
+@media (max-width:500px) {
+	.headline {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 3rem;
+		margin-top: 14rem;
+	}
+	h1 {
+		font-size: 3rem;
+		line-height: 3.1rem;
+		margin-bottom: 2rem;
+	}
+	h2 {
+		font-size: 1.8rem;
+		letter-spacing: .2rem;
+
+	}
+	.description {
+		font-size: 1.3rem;
+		line-height: 2rem;
+		width: 100%;
+		margin: 0 auto;
+		margin-bottom: 4rem;
+	}
+	.teachers ul li {
+		width: 300px;
+	}
+	h3 {
+	font-size: 1.3rem;
+	}
+	.form {
+		width: 90%;
+	}
+	/* Ajustment Styles Mobile */
+	.title {
+		font-size: 3rem;
+		margin-top: 0;
+	}
+
+	.overview ul li {
+		font-size: 1.6rem;
+	}
+	.whatsapp {
+		bottom: 10px;
+		right: 10px;
+	}
+}
+
+
+
